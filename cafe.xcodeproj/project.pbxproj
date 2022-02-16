@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E109B7F5B7C59062C85668A /* Pods_cafe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF511004E37C302A22A2172F /* Pods_cafe.framework */; };
 		E49C0F0627BB7F1800DD5ECA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49C0F0527BB7F1800DD5ECA /* AppDelegate.swift */; };
 		E49C0F0827BB7F1800DD5ECA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49C0F0727BB7F1800DD5ECA /* SceneDelegate.swift */; };
 		E49C0F0A27BB7F1800DD5ECA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49C0F0927BB7F1800DD5ECA /* ViewController.swift */; };
 		E49C0F0D27BB7F1800DD5ECA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E49C0F0B27BB7F1800DD5ECA /* Main.storyboard */; };
 		E49C0F0F27BB7F2000DD5ECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E49C0F0E27BB7F2000DD5ECA /* Assets.xcassets */; };
 		E49C0F1227BB7F2000DD5ECA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E49C0F1027BB7F2000DD5ECA /* LaunchScreen.storyboard */; };
+		E49C0F1A27BB80E500DD5ECA /* NameCafeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49C0F1927BB80E500DD5ECA /* NameCafeCell.swift */; };
+		E49C0F1C27BB82A200DD5ECA /* CafeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49C0F1B27BB82A200DD5ECA /* CafeModule.swift */; };
+		E49C0F1E27BBC43A00DD5ECA /* SaleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49C0F1D27BBC43A00DD5ECA /* SaleCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0201C3C685D9D9BCE8E4545A /* Pods-cafe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cafe.release.xcconfig"; path = "Target Support Files/Pods-cafe/Pods-cafe.release.xcconfig"; sourceTree = "<group>"; };
+		53593FE38BDAFF0AA1A1F07A /* Pods-cafe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cafe.debug.xcconfig"; path = "Target Support Files/Pods-cafe/Pods-cafe.debug.xcconfig"; sourceTree = "<group>"; };
+		AF511004E37C302A22A2172F /* Pods_cafe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cafe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E49C0F0227BB7F1800DD5ECA /* cafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E49C0F0527BB7F1800DD5ECA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E49C0F0727BB7F1800DD5ECA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,9 @@
 		E49C0F0E27BB7F2000DD5ECA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E49C0F1127BB7F2000DD5ECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E49C0F1327BB7F2000DD5ECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E49C0F1927BB80E500DD5ECA /* NameCafeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameCafeCell.swift; sourceTree = "<group>"; };
+		E49C0F1B27BB82A200DD5ECA /* CafeModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeModule.swift; sourceTree = "<group>"; };
+		E49C0F1D27BBC43A00DD5ECA /* SaleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E109B7F5B7C59062C85668A /* Pods_cafe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C84DCE987124F172D6FFC121 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF511004E37C302A22A2172F /* Pods_cafe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB1D35481309FCFA53DE1A46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53593FE38BDAFF0AA1A1F07A /* Pods-cafe.debug.xcconfig */,
+				0201C3C685D9D9BCE8E4545A /* Pods-cafe.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E49C0EF927BB7F1800DD5ECA = {
 			isa = PBXGroup;
 			children = (
 				E49C0F0427BB7F1800DD5ECA /* cafe */,
 				E49C0F0327BB7F1800DD5ECA /* Products */,
+				DB1D35481309FCFA53DE1A46 /* Pods */,
+				C84DCE987124F172D6FFC121 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +93,9 @@
 				E49C0F0E27BB7F2000DD5ECA /* Assets.xcassets */,
 				E49C0F1027BB7F2000DD5ECA /* LaunchScreen.storyboard */,
 				E49C0F1327BB7F2000DD5ECA /* Info.plist */,
+				E49C0F1927BB80E500DD5ECA /* NameCafeCell.swift */,
+				E49C0F1B27BB82A200DD5ECA /* CafeModule.swift */,
+				E49C0F1D27BBC43A00DD5ECA /* SaleCell.swift */,
 			);
 			path = cafe;
 			sourceTree = "<group>";
@@ -74,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E49C0F1627BB7F2000DD5ECA /* Build configuration list for PBXNativeTarget "cafe" */;
 			buildPhases = (
+				675815C024C6E3653A5AB423 /* [CP] Check Pods Manifest.lock */,
 				E49C0EFE27BB7F1800DD5ECA /* Sources */,
 				E49C0EFF27BB7F1800DD5ECA /* Frameworks */,
 				E49C0F0027BB7F1800DD5ECA /* Resources */,
+				28008136923A71640824A4BE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +168,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		28008136923A71640824A4BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cafe/Pods-cafe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cafe/Pods-cafe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cafe/Pods-cafe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		675815C024C6E3653A5AB423 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cafe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E49C0EFE27BB7F1800DD5ECA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E49C0F1C27BB82A200DD5ECA /* CafeModule.swift in Sources */,
 				E49C0F0A27BB7F1800DD5ECA /* ViewController.swift in Sources */,
+				E49C0F1A27BB80E500DD5ECA /* NameCafeCell.swift in Sources */,
 				E49C0F0627BB7F1800DD5ECA /* AppDelegate.swift in Sources */,
+				E49C0F1E27BBC43A00DD5ECA /* SaleCell.swift in Sources */,
 				E49C0F0827BB7F1800DD5ECA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +364,7 @@
 		};
 		E49C0F1727BB7F2000DD5ECA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53593FE38BDAFF0AA1A1F07A /* Pods-cafe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +393,7 @@
 		};
 		E49C0F1827BB7F2000DD5ECA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0201C3C685D9D9BCE8E4545A /* Pods-cafe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

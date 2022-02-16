@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "19-19-2019-papa-roma.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "19-19-2019-papa-roma-1.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "19-19-2019-papa-roma-2.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
